@@ -19,9 +19,11 @@ Plug 'morhetz/gruvbox'
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
 autocmd vimenter * colorscheme gruvbox
+autocmd vimenter * AirlineTheme tomorrow
 "let NERDTreeQuitOnOpen=1" esto cierra nerdTree cuando entro a un archivo
 
 let mapleader=" "
@@ -30,3 +32,5 @@ nmap <Leader>nt :NERDTreeFind<CR>
 nmap <Leader>w :w<CR>
 nmap <Leader>q :q<CR>
 nmap <Leader>wq :wq<CR>
+
+
